@@ -1,0 +1,51 @@
+#header {
+ border: none;
+}
+
+#header-bottom-left {
+    font-size: larger;
+    background-color: #F5002F;
+    height: 6rem;
+    border-bottom: 5px solid #002566;
+    color: #C2CCCC;
+}
+
+.pagename a {
+ content: url(%%roundLogo%%);
+ height: auto;
+ width: 80px;
+ position: absolute;
+ left: 50%;
+ color: #C2CCCC;
+}
+
+#header-img {
+ content: url(%%wizsnoo%%);
+ height: auto;
+ width: 80px;
+ position: absolute;
+ left: 0px;
+ color: #C2CCCC;
+}
+
+a {
+ text-decoration: none;
+ color: #F5002F; 
+}
+
+.tabmenu {
+ position: absolute;
+ bottom: 0px;
+ left: 0px;
+}
+
+.tabmenu li a {
+ background-color: #FFFFFF;
+ color: rgba(245,0,47, .4);
+}
+
+.tabmenu li.selected a {
+ background-color: #FFFFFF;
+ color: #F5002F;
+ border: 1px solid #FFFFFF;
+}
