@@ -1,51 +1,63 @@
 #header {
- border: none;
+    border: none;
 }
 
 #header-bottom-left {
-    font-size: larger;
-    background-color: #F5002F;
-    height: 6rem;
-    border-bottom: 5px solid #002566;
+font-size: larger;
+    background: linear-gradient(#F5002F, #F5002F, #002566);
+    height: 140px;
+    border-bottom: 5px solid #C2CCCC;
     color: #C2CCCC;
 }
 
 .pagename a {
- content: url(%%roundLogo%%);
- height: auto;
- width: 80px;
- position: absolute;
- left: 50%;
- color: #C2CCCC;
+    content: url(%%roundLogo%%);
+    height: auto;
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    color: #C2CCCC;
+}
+
+.pagename:after {
+    background-image: url(%%redditHeader%%);
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    height: 98%;
+    background-size: 90vw;
+    width: 100%;
+    top: -1%;
+    pointer-events: none;
 }
 
 #header-img {
- content: url(%%wizsnoo%%);
- height: auto;
- width: 80px;
- position: absolute;
- left: 0px;
- color: #C2CCCC;
+    content: url(%%wizsnoo%%);
+    height: auto;
+    width: 80px;
+    position: absolute;
+    left: 0px;
+    color: #C2CCCC;
 }
 
 a {
- text-decoration: none;
- color: #F5002F; 
+    text-decoration: none;
+    color: #F5002F; 
 }
 
 .tabmenu {
- position: absolute;
- bottom: 0px;
- left: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 
 .tabmenu li a {
- background-color: #FFFFFF;
- color: rgba(245,0,47, .4);
+    background-color: #FFFFFF;
+    color: rgba(245,0,47, .4);
 }
 
 .tabmenu li.selected a {
- background-color: #FFFFFF;
- color: #F5002F;
- border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #F5002F;
+    border: 1px solid #FFFFFF;
 }
